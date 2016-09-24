@@ -5,22 +5,89 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/plantillas.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pinyon+Script" >
+	
 </head>
 <body>
 	<div class="fondo">
-		<form>
-			<h1>formulario de registro</h1>
-			<h6>Nombre</h6>
-			<input type="text" name="nombre" maxlength="12" placeholder="ingrese su nombre">
-			<h6>Correo electronico</h6>
-			<input type="email" name="correo" id="inputCorreo" class="form-control" value="" required="required" title="" placeholder="ingrese su correo electronico">
-			<h6>Fecha de nacimiento</h6>
-			<input type="date" name="" id="input" class="form-control" value="" required="required" title="" placeholder="ingrese su fecha de nacimiento">
-			<h6>Cantidad de hijos</h6>
-			<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
-			<button type="button" class="btn btn-default">enviar</button>
-		</form>
-	</div>
+	<table>
+		<tr>
+				<th>
+					<form class="formulario1" action="" method="post" name="formulario1">
+						<ul>
+							<li>
+								<h1>formulario de registro</h1>
+							</li>
+							<li>
+								<label for="name">Nombre</label>
+								<input type="text" name="nombre" maxlength="12" placeholder="ingrese su nombre" required="required">
+							</li>
+							<li>
+								<label for="email">Correo electronico</label>
+								<input type="email" name="correo" id="inputCorreo" class="form-control" value="" required="required" title="" placeholder="ingrese su correo electronico">
+							</li>
+							<li>
+								<label for="date">Fecha de nacimiento</label>
+								<input type="date" name="" id="input" class="form-control" value="" required="required" title="" placeholder="ingrese su fecha de nacimiento">
+							</li>
+							<li>
+								<label for="number">Cantidad de hijos</label>
+								<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
+							</li>
+							<li>
+								<button class="submit" type="submit">Enviar</button>
+							</li>
+						</ul>
+					</form>
+				</th>
+				<th>
+					<img src="imagenes/JEJEJE.jpg">
+				</th>
+				<th>
+					<form class="formulario2" action="" method="post" name="formulario2">
+						<ul>
+							<li>elemento1</li>
+							<li>elemento2</li>
+							<li>elemento3</li>
+						</ul>
+					</form>
+				</th>
+				
+		</tr>
+		<tr>
+			<th>
+				<form class="formulario3" action="" method="post" name="formulario3">
+					<ul>
+						<li>
+							<label for="number">Numero1</label>
+							<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
+						</li>
+						<li>
+							<label for="">Numero2</label>
+							<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
+						</li>
+						<li>
+								<button class="submit" type="submit">Multiplicar</button>
+						</li>
+					</ul>
+				</form>
+			</th>
+			<th>
+				<form class="formulario4" action="" method="post" name="formulario4">
+					<ul>
+						<li>
+							<label for="number">Introdusca un numero entero</label>
+							<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
+						</li>
+						<li>
+								<button class="submit" type="submit">Generar</button>
+						</li>
+					</ul>
+				</form>	
+			</th>
+		</tr>
+
+	</table>
+		
 	
 	
 </body>
