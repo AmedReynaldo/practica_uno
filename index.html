@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/plantillas.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pinyon+Script" >
-	
 </head>
 <body>
 	<div class="fondo">
@@ -58,16 +56,21 @@
 				<form class="formulario3" action="" method="post" name="formulario3">
 					<ul>
 						<li>
-							<label for="number">Numero1</label>
-							<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
+							numero1:<input type="number" id="n1">
 						</li>
 						<li>
-							<label for="">Numero2</label>
-							<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
+							numero2:<input type="number" id="n2">
 						</li>
 						<li>
-								<button class="submit" type="submit">Multiplicar</button>
+							respuesta:<input type="number" id="res">
 						</li>
+						<li>
+							
+							<input type="button" value="MULTIPLICAR"onclick="multiplicar()">
+						</li>
+						<!--<li>
+								<button class="submit" type="submit" onclick="multiplicar()">Multiplicar</button>
+						</li>-->
 					</ul>
 				</form>
 			</th>
@@ -79,7 +82,7 @@
 							<input type="number" name="" id="input" class="form-control" value="" min="0" max="10" step="" required="required" title="">
 						</li>
 						<li>
-								<button class="submit" type="submit">Generar</button>
+								<button class="submit" type="submit" onclick="aleatorio()">Generar</button>
 						</li>
 					</ul>
 				</form>	
@@ -88,7 +91,7 @@
 
 	</table>
 		
-	
+	<script type="text/javascript" src="js/javascrip.js"></script>
 	
 </body>
 </html>
