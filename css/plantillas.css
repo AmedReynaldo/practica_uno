@@ -106,6 +106,27 @@ img{
 	border-bottom: 1px ;
 	position: relative;
 	border-radius: 0px 50px 50px 0px;
+	cursor: pointer;
+}
+.formulario2 li:hover
+{
+	background: linear-gradient(to right, rgba(50,50,50,1) 10%, rgba(100,192,120,10) 100%);
+	border-left: 10px solid #000000;
+	border-bottom: 1px ;
+	position: relative;
+	border-radius: 0px 50px 50px 0px;
+	cursor: pointer;
+}
+.formulario2 ul li a{
+	color:#00bfff;
+	text-shadow: 5px 3px 1px #000000;
+	cursor: pointer;
+}
+.formulario2 ul li a:hover
+{
+	color:#000000;
+	text-shadow: 5px 3px 1px #00bfff;
+	cursor: pointer;
 }
 .formulario3{
 	
